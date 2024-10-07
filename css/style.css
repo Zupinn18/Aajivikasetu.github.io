@@ -329,7 +329,7 @@ button {
 }
 
 .head_top .hidden{
-     color: #008df3;
+     color: #38c8a8;
 }
 .header {
      width: 100%;
@@ -374,7 +374,7 @@ button {
 .text-bg a {
      font-size: 17px;
      background-color: #fff;
-     color: #0891f8;
+     color: #38c8a8;
      padding: 13px 0px;
      width: 100%;
      max-width: 190px;
@@ -393,6 +393,8 @@ button {
 
 .text-img {
      padding-top: 100px;
+     margin-top: -200px;
+     margin-right: -100px;
 }
 
 .text-img figure {
@@ -400,7 +402,8 @@ button {
 }
 
 .text-img figure img {
-     width: 100%;
+     width: 60%;
+
 }
 
 .titlepage {
@@ -431,7 +434,7 @@ button {
 }
 
 .business .titlepage span {
-     color: #0891f8;
+     color: #38c8a8;
      font-size: 30px;
      font-family: 'Baloo Chettan', cursive;
      text-transform: uppercase;
@@ -470,7 +473,7 @@ button {
 }
 
 .business .business_box .read_more:hover {
-     background: #0891f8;
+     background: #38c8a8;
 }
 
 
@@ -495,7 +498,7 @@ button {
 }
 
 .projects .titlepage span {
-     color: #0891f8;
+     color: #38c8a8;
      font-size: 30px;
      font-family: 'Baloo Chettan', cursive;
      text-transform: uppercase;
@@ -534,7 +537,7 @@ button {
 }
 
 .projects .projects_box .read_more:hover {
-     background: #0891f8;
+     background: #38c8a8;
 }
 
 
@@ -544,12 +547,14 @@ button {
 /** Testimonial section **/
 
 .Testimonial {
-     background: url(../images/test.png);
+     /* background: url(../images/test.png); */
+     background-color: #38c8a8;
      background-repeat: no-repeat;
      margin-top: 90px;
      padding: 90px 0px;
      background-position: center;
      background-size: 100% 100%;
+     border-radius: 10px;
 }
 
 .Testimonial .titlepage h2 {
@@ -602,10 +607,11 @@ button {
 
 .Testimonial_box p {
      color: #fff;
-     font-size: 17px;
+     font-size: 25px;
      line-height: 28px;
      padding: 25px 0;
      padding-right: 200px;
+     font-weight: 500;
 }
 
 
@@ -630,18 +636,18 @@ button {
 
 .main_form {
      padding: 50px 50px;
-     border: #008df3 solid 1px;
+     border: #38c8a8 solid 1px;
      border-radius: 40px;
      margin: 0px 80px;
 }
 
 .contact .main_form .form_contril {
-     border: #008df3 solid 1px;
+     border: #38c8a8 solid 1px;
      margin-bottom: 20px;
      width: 100%;
      height: 45px;
      background: #fff;
-     color: #008df3;
+     color: #38c8a8;
      font-size: 17px;
      border-top: 0;
      border-right: 0;
@@ -649,12 +655,12 @@ button {
 }
 
 .contact .main_form .textarea {
-     border: #008df3 solid 1px;
+     border: #38c8a8 solid 1px;
      margin-bottom: 20px;
      width: 100%;
      height: 60px;
      background: #fff;
-     color: #008df3;
+     color: #38c8a8;
      font-size: 17px;
      border-top: 0;
      border-right: 0;
@@ -675,14 +681,14 @@ button {
 }
 
 .contact .main_form .send_btn:hover {
-     background-color: #008df3;
+     background-color: #38c8a8;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
 }
 
 #contact *::placeholder {
-     color: #008df3;
+     color: #38c8a8;
      opacity: 1;
 }
 
@@ -727,7 +733,7 @@ button {
 /** footer **/
 
 .multi {
-     color: #008df3;
+     color: #38c8a8;
 }
 
 .footer-basic {
@@ -838,7 +844,7 @@ ul.social_icon li a {
      width: 50px;
      height: 50px;
      display: inline-block;
-     color: #008df3;
+     color: #38c8a8;
 }
 
 ul.social_icon li a:hover {
@@ -847,7 +853,7 @@ ul.social_icon li a:hover {
 
 .copyright {
      padding: 7px 0px;
-     background: #0891f8;
+     background: #38c8a8;
      margin-top: 50px;
      position: relative;
 }
@@ -879,7 +885,7 @@ ul.social_icon li a:hover {
 
 .bottom_border{
      padding: 20px 0px;
-     background: #0891f8;
+     background: #38c8a8;
      margin-top: 50px;
      position: relative;
      text-align: center;
@@ -896,7 +902,7 @@ font-size: 10px;
      cursor: pointer;
      color: white;
      font-size: 10px;
-     background: #0891f8;
+     background: #38c8a8;
      margin-bottom: -10px;
      text-decoration: none; /* Add underline effect */
    }
