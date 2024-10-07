@@ -6,12 +6,18 @@
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media (min-width: 1200px) and (max-width: 1500px) {
+    .head_top {
+        background: #38c8a8;
+    }
     .projects::after {
         width: 262px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .head_top {
+        background: #38c8a8;
+    }
     .testimonial_Carousel .test_box p {
         font-size: 16px;
         padding: 29px;
@@ -26,9 +32,17 @@
     /* .copyright::after {
         background: transparent;
     } */
+    .text-img figure img {
+        margin-top: 200px;
+        width: 60%;
+
+   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .head_top {
+        background: #38c8a8;
+    }
     .projects::after {
         background: transparent;
     }
@@ -62,7 +76,7 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .head_top {
-        background: #0891f8;
+        background: #38c8a8;
     }
     .mean-container .mean-bar {
         margin-top: 0px;
@@ -76,11 +90,16 @@
     .text-img {
         padding-top: 30px;
     }
+    .text-img figure img {
+        margin-top: 200px;
+        width: 60%;
+
+   }
     .main_form {
         margin: 0;
     }
     .Testimonial {
-        background: #0891f8;
+        background: #38c8a8;
     }
     .Testimonial_box {
         padding: 20px;
@@ -138,7 +157,7 @@
 
 @media (max-width: 575px) {
     .head_top {
-        background: #0891f8;
+        background: #38c8a8;
     }
     .header {
         padding: 12px 0px 0px 0px;
@@ -158,6 +177,11 @@
     .text-img {
         padding-top: 30px;
     }
+    .text-img figure img {
+        margin-top: 200px;
+        width: 60%;
+
+   }
     .titlepage h2 {
         font-size: 35px;
         line-height: 50px;
@@ -173,7 +197,7 @@
         background: transparent;
     }
     .Testimonial {
-        background: #0891f8;
+        background: #38c8a8;
     }
     .Testimonial_box {
         padding: 20px;
@@ -234,9 +258,8 @@
         cursor: pointer;
         color: white;
         font-size: 10px;
-        background: #0891f8;
+        background: #38c8a8;
         margin-bottom: -10px;
         text-decoration: none; /* Add underline effect */
       }
 }
-
