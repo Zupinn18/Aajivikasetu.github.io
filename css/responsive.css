@@ -93,19 +93,12 @@
     .text-img figure img {
         margin-top: 200px;
         width: 60%;
-
+        
    }
-   .container h1 .our-services{
-    text-align: center;
-    font-weight: 800;
-    background-color: #38c8a8;
-    color: white;
-    /* margin-right: 500px; */
-    /* margin-left: 400px; */
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
 
+   .text-img .playstoreimg a img{
+    margin-top: -300px !important;
+   }
     .main_form {
         margin: 0;
     }
