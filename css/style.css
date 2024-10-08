@@ -426,7 +426,10 @@ button {
      flex-wrap: wrap;
 }
 
-
+.qr-image{
+     width: 150px;
+     display: flex;
+}
 /** business section **/
 
 .business {
